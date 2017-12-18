@@ -5,7 +5,7 @@
     <data>
         <variable
             name="productDetailData"
-            type="com.radyalabs.mobileagent.databinding.ProductDetailDataBinding"/>
+            type="com.ade.mvvmmaster.databinding.ProductDetailDataBinding"/>
     </data>
 
     <RelativeLayout

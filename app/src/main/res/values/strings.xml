@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Mobile Agent</string>
+    <string name="app_name">MVVM Master Project</string>
     <string name="connection_problem_message">Failed getting data from server</string>
 </resources>

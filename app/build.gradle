@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.radyalabs.mobileagent"
+        applicationId 'com.ade.mvvmmaster'
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
@@ -28,6 +28,8 @@ android {
     }
     dataBinding {
         enabled = true
+    }
+    productFlavors {
     }
 }
 
