@@ -82,7 +82,6 @@ public class MainActivity extends BaseActivity {
                             }
                             adapter.notifyDataSetChanged();
 
-                            CacheManager.checkCache(db, Constant.CACHE_PRODUCT);
                             CacheManager.storeCache(db, Constant.CACHE_PRODUCT, new Gson().toJson(data));
                         }
                     } else {

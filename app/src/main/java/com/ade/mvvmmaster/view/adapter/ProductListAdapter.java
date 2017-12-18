@@ -41,8 +41,7 @@ public class ProductListAdapter extends RecyclerView.Adapter<GenericViewHolder> 
     public GenericViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater layoutInflater = LayoutInflater.from(parent.getContext());
         binding = DataBindingUtil.inflate(layoutInflater, R.layout.product_item, parent, false);
-        GenericViewHolder viewHolder = new GenericViewHolder(binding);
-        return viewHolder;
+        return new GenericViewHolder(binding);
     }
 
     @Override
