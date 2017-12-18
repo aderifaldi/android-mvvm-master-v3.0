@@ -3,11 +3,11 @@ android master project use mvvm-databinding-live
 
 specs:
 
-mvvm pattern
-data binding
-repository pattern
-live data
-retrofit
-glide
-lombok
-room
+- mvvm pattern
+- data binding
+- repository pattern
+- live data
+- retrofit
+- glide
+- lombok
+- room
