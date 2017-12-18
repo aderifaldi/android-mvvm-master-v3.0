@@ -1,5 +1,5 @@
 # android-mvvm-master-v3.0
-android master project use mvvm-databinding-live
+android master project use mvvm-databinding and repository pattern
 
 specs:
 
